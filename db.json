@@ -1,15 +1,64 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 },
-    { "id": 3, "body": "some comment3", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+    "restaurants":[
+        {
+        "name":"Chile's",
+        "id":1,
+        "rating": "4.5",
+        "tags": ["American","Mexican","Tacos"]
+    },
+    {
+        "name":"Subway",
+        "id":2,
+        "rating": "3.5",
+        "tags": ["American","Sandwiches"]
+    },
+    {
+        "name":"Rizzo's Pizza",
+        "id":3,
+        "rating": "4.0",
+        "tags": ["American","Pizza","Italian","Soup"]
+    },
+    {
+        "name":"Pizza Hut",
+        "id":4,
+        "rating": "2.5",
+        "tags": ["American","Pizza","Breadsticks"]
+    },
+    {
+        "name":"Olive Garden",
+        "id":5,
+        "rating": "4.5",
+        "tags": ["American","Italian","Eggplant"]
+    },
+    {
+        "name":"Amber's",
+        "id":6,
+        "rating": "4.5",
+        "tags": ["Mediterranean"]
+    },
+    {
+        "name":"Noches de Colombia",
+        "id":7,
+        "rating": "3.5",
+        "tags": ["Colombian"]
+    },
+    {
+        "name":"Johnny Rockets",
+        "id":8,
+        "rating": "4.0",
+        "tags": ["American","Burgers"]
+    },
+    {
+        "name":"Starbucks",
+        "id":9,
+        "rating": "2.5",
+        "tags": ["American","Coffee"]
+    },
+    {
+        "name":"Taste of Peru",
+        "id":10,
+        "rating": "4.5",
+        "tags": ["Peruvian","Ceviche"]
+    }
+    ]
 }
